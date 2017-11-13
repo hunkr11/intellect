@@ -11,6 +11,6 @@ public class IntellectcurdApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(IntellectcurdApplication.class, args);
 	}
-	
+	  
 
 }
