@@ -13,9 +13,14 @@ import com.intellect.intellectcurd.service.EmployeeService;
 
 @RestController
 public class EmployeeController {
-	
+		
 	@Autowired
 	private EmployeeService empService;
+	
+	/**
+	 * Add Employee
+	 * 
+	 */
 	
 	@RequestMapping(value="/add-employee",method = RequestMethod.POST)
 	public ResponseObj addEmployee(@RequestBody Employee emp) {
